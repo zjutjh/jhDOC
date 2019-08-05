@@ -1,0 +1,33 @@
+site_name: 精弘网络文档
+site_author: 精弘网络
+theme:
+  name: 'material'
+  feature:
+    tabs: true
+  language: 'zh'
+  palette:
+    primary: 'Blue'
+    accent: 'Cyan'
+extra:
+    search:
+        language: 'zh'
+nav:
+  - 精弘网络:
+    - 组织介绍: index.md
+  - 产品:
+    - 精弘认证中心: product_auth.md
+    - API: api.md
+  - 开发规范:
+    - 概要: scheme.md
+markdown_extensions:
+  - meta
+  - admonition # 注解
+  - pymdownx.details # 折叠需要的
+  - footnotes # 脚注
+  - pymdownx.critic # 强调
+  - pymdownx.inlinehilite # 行内代码高亮
+  - pymdownx.superfences # 注解嵌套代码块
+  - pymdownx.smartsymbols # 特殊符号
+  - codehilite # 代码高亮
+  - toc:
+      permalink: true
